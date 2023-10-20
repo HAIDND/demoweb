@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test code</title>
+  <link rel ="stylesheet" type="text/css" href="chatbot.css" />
+  <style>
+    body {
+      position: relative;
+    }
+  </style>
+  
+</head>
+<script src="chatbot.js"> </script>
+<script>
+  function showImg(m,n){
+     x = 1;
+     for( i = 0; i < n ; i++) ;
+     x = x * m
+     
+     document.getElementsByName('hihi')
+     return x;
+  }
+</script>
+<body>
+  <div class="intro">
+    <img src="haifoodlogo.jpg" alt=" Hai FOOD" height="100px" width="1350px">
+
+  </div>
+   <div class="formDangKy">
+    <form>ho va ten
+      <input text="" type="text" name="Dien ho va ten"><br>
+      <input type="radio" name="gioiTinh" value="Nam" >Nam <br> <input type="radio" name="gioiTinh" value="Nu">Nu <br> 
+      <br>
+      <textarea rows="1" cols="24" name="vidu"  >Toi rat thich xem j a v a s c r i p t tren youtube :3</textarea>
+      <br>
+      <textarea rows="7" cols=" 40" name="thongTin" style="background-image: url(ngacNhien1.gif) ;"> gioi thieu va ban than cua ban</textarea><br>
+
+      <input type="image" src="ngacNhien1.gif" style="padding-left: 120px;  width="100px" height="100px"><BR>
+      <input type="submit" value="Gui thong tin dang ki">
+    </form>
+
+   </div>
+  </div>
+  <div class="formDangKy1">
+   <form>ho va ten
+     <input text="" type="text" name="Dien ho va ten"><br>
+     <input type="radio" name="gioiTinh" value="Nam" >Nam <br> <input type="radio" name="gioiTinh" value="Nu">Nu <br> 
+     <textarea rows="7" cols=" 40" name="thongTin"> gioi thieu va ban than cua ban</textarea><br>
+
+     <input type="image" src="jztr1.gif"  width="100px" height="100px" style="padding-left: 100px;"><BR>
+     <input type="submit" value="Gui thong tin dang ki">
+   </form>
+
+  </div>
+  <br><br><br>
+<br>
+<div  style="background-color: aquamarine;"><br><br>
+  <label for="numberInput">Nhập số từ 0 đến 10:</label>
+  <input type="text" id="numberInput" onkeypress="return validateInput(event)">
+  <br><br><br></div><br><br><br><br>
+<div>
+  <img id="myImage" src="jztr.gif" height="100" width="100" alt="My Image">
+  <script> function processImage() {
+    var image = document.getElementById("myImage");
+    image.src = "jztr.gif";
+  }</script>
+  <button id="upButton">Lên</button>
+  <button id="downButton">Xuống</button>
+  <button id="leftButton">Trái</button>
+  <button id="rightButton">Phải</button>
+
+
+    <script>
+      // Lấy các phần tử từ HTML
+const image = document.getElementById('myImage');
+const upButton = document.getElementById('upButton');
+const downButton = document.getElementById('downButton');
+const leftButton = document.getElementById('leftButton');
+const rightButton = document.getElementById('rightButton');
+
+// Xử lý sự kiện khi người dùng nhấn vào nút "Lên"
+upButton.addEventListener('click', function() {
+  let currentPosition = parseInt(image.style.top) || 0;
+  currentPosition -= 10; // Di chuyển lên 10px
+  image.style.top = currentPosition + 'px';
+});
+
+// Xử lý sự kiện khi người dùng nhấn vào nút "Xuống"
+downButton.addEventListener('click', function() {
+  let currentPosition = parseInt(image.style.top) || 0;
+  currentPosition += 10; // Di chuyển xuống 10px
+  image.style.top = currentPosition + 'px';
+});
+
+// Xử lý sự kiện khi người dùng nhấn vào nút "Trái"
+leftButton.addEventListener('click', function() {
+  let currentPosition = parseInt(image.style.left) || 0;
+  currentPosition -= 10; // Di chuyển sang trái 10px
+  image.style.left = currentPosition + 'px';
+});
+
+// Xử lý sự kiện khi người dùng nhấn vào nút "Phải"
+rightButton.addEventListener('click', function() {
+  let currentPosition = parseInt(image.style.left) || 0;
+  currentPosition += 10; // Di chuyển sang phải 10px
+  image.style.left = currentPosition + 'px';
+});
+
+    </script>
+
+</div>
+
+
+
+
+
+
+   
+  <div class="meme" style="padding-top: 20px;">
+    <Img src="ngacNhien1.gif" alt="mememe ne">
+      <Img src="hmuhmu.gif" alt="mememe ne">
+  </div>
+  </div>
+   <div class="moveButton" style="background-color: aquamarine;">
+<canvas id="myCanvas" width="400" height="400"></canvas>
+<div class="nut">
+<div>
+<button class="up" onclick="moveUp()">Up</button>
+
+</div>
+<div>
+<button class="left" onclick="moveLeft()">Left</button>
+<button class="rigth" onclick="moveRight()">Right</button>
+  
+</div>
+<div>
+  
+</div>
+<div>
+  <button class="down" onclick="moveDown()">Down</button>
+<label input='hhi'> hehehe</label>
+</div>
+</div>
+
+
+   </div>
+
+   <div class="troChoi" style="background-color: antiquewhite;">
+    <script>
+          const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+let x = 200; // initial x coordinate of the picture
+let y = 200; // initial y coordinate of the picture
+
+// Function to draw the picture on the canvas
+function drawPicture() {
+
+
+  var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+// Vẽ hình chữ nhật màu đỏ tại tọa độ (50, 50) với chiều rộng 100 và chiều cao 50
+
+
+  
+  ctx.clearRect(0, 0, canvas.width, canvas.height); // clear the canvas
+  ctx.fillStyle = "green"; // color of the picture (blue in this example)
+  ctx.fillRect(x, y, 50, 50);
+  ctx.fillStyle = "red";
+  ctx.fillRect(x, y+40, 20, 20);
+  ctx.fillStyle = "red";
+  ctx.fillRect(x+30, y+40, 20, 20);
+  ctx.fillStyle = "yellow";
+  ctx.fillRect(x-10, y+25, 15, 15);
+  ctx.fillStyle = "yellow";
+  ctx.fillRect(x+45, y+25, 15, 15);
+  ctx.fillStyle = "white";
+  ctx.fillRect(x+10, y+10, 10, 10);
+  ctx.fillStyle = "white";
+  ctx.fillRect(x+30, y+10, 10, 10);
+  ctx.beginPath();
+  ctx.fillStyle = "white"
+  ctx.moveTo(x+20-5, y+30-5); // Điểm đầu của tam giác
+  ctx.lineTo(x+40-5, y+30-5); // Điểm thứ hai của tam giác
+  ctx.lineTo(x+30-5, y+40-5); // Điểm thứ ba của tam giác
+  ctx.closePath(); // Kết thúc việc vẽ tam giác
+
+// Tô màu cho tam giác
+ctx.fillStyle = "white";
+ctx.fill();
+   // draw a square picture at (x, y) with size 50x50}
+}
+
+// Function to handle the "Up" button click event
+function moveUp() {
+  y -= 20; // decrease y coordinate by 10 pixels
+  drawPicture(); // re-draw the picture in the new position
+}
+
+// Function to handle the "Down" button click event
+function moveDown() {
+  y += 20; // increase y coordinate by 10 pixels
+  drawPicture(); // re-draw the picture in the new position
+}
+
+// Function to handle the "Left" button click event
+function moveLeft() {
+  x -= 20; // decrease x coordinate by 10 pixels
+  drawPicture(); // re-draw the picture in the new position
+}
+
+// Function to handle the "Right" button click event
+function moveRight() {
+  x += 20; // increase x coordinate by 10 pixels
+  drawPicture(); // re-draw the picture in the new position
+}
+
+  drawPicture(); // initial drawing of the picture
+
+    </script>
+
+   </div>
+</body>
+</html>

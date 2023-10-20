@@ -1,0 +1,26 @@
+body { background-color: rgb(27, 192, 170) }
+
+div.main { margin-left: 240px ; color: black; background: whitesmoke; }
+
+p.intro { font-family: revert; font-size: 30px ; font-display:10px ; margin-left: 30px ; color: steelblue; }
+
+div.quangcao { background-color:rgb(169, 211, 169); ;}
+div.quangcao img {  padding-top: 20px }
+
+div.quangcao5 img { margin-left: 250px; padding-top: 20px }
+
+div.quangcao1 {position: sticky; float:right; text-align: center;	;height:250px ; width:300px; background-color: lightskyblue; }
+div.quangcao2 {position: sticky; float:right ;margin-left: 300px; text-align: center;; ;height:250px ; width:300px; background-color: lightgrey;   }
+div.quangcao3 {position: sticky;float:right; margin-left: 300px; text-align: center;; ;height:250px ; width:300px; background-color: lightskyblue;  }
+div.quangcao4 {position: sticky;float:right;margin-left: 300px; text-align: center;; ;height:250px ; width:300px; background-color: lightgrey;    }
+div.quangcao5 {position: sticky;margin-left: ; text-align: center;; ;height:250px ; width:300px; background-color: blue; }
+div.quangcao6 {position: sticky;margin-left: ; text-align: center;; ;height:250px ; width:300px; background-color: lightskyblue;    }
+div.quangcao7 {position: sticky;margin-left: ; text-align: center;; ;height:250px ; width:300px; background-color: lightgrey;  }
+div.quangcao8 {position: sticky;margin-left: ; text-align: center;; ;height:250px ; width:300px; background-color: lightskyblue;  }
+
+div.banquyen { position:relative; font-family: initial;  bottom: 0px;background-color: white ; color: black ; font-size: 18px ; height: 200px ; text-align: center;  }
+
+div.dieuhuong {background-color: blanchedalmond;height: auto; width: 210px; position: absolute; left: 20px;top: 133px ; font-size:  20px ; font-family: fantasy; padding-left:  10px ; display: block;}
+
+div.chatbot { position: fixed ; bottom: 50px ; right: 10px ; top: 20px ; height:50px; width:50px ; background-color: lightskyblue; }
+

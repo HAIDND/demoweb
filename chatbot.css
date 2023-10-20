@@ -1,0 +1,16 @@
+div.formDangKy {position:  ;background-color: lightblue; height: 300px; width: 500px; padding-top: 50px;}
+div.formDangKy1 {position: ; right: 20px; background-color: lightblue; height: 300px; width: 500px; padding-top: 50px;}
+img {
+
+    max-width: 100%; /* Khi trang web co lại, ảnh tự co lại theo tỷ lệ */
+    max-height: 100%; /* Khi trang web mở rộng, ảnh tự mở rộng theo tỷ lệ */
+  }
+div.formDangKy textarea  {background-color: aquamarine;}
+div.formDangKy1 textarea  {background-color: rgb(168, 177, 255);}
+div.meme {height: 200px; width: 200px; bottom: 50px;}
+
+div.nut { background-color: rgb(166, 63, 226); height: 100px; width: 100px; margin-left: 00px;}
+button.left  { background-color: brown; margin-left: 4px; margin-top: 10px;}
+button.rigth  { background-color: brown; margin-right:0px ;}   
+button.up  { background-color: rgb(241, 198, 178); margin-left: 40px;}
+button.down  { background-color: brown; margin-left: 30px ;margin-top: 10px;}
